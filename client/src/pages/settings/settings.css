@@ -1,0 +1,104 @@
+.settings{
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(rgba(255,255,255,0.5),
+    rgba(255,255,255,0.5)),url("https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.61);
+    
+}
+
+.settingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.settingsTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsUpdateTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(99, 48, 48);
+}
+
+.settingsDeleteTitle{
+    color: rgb(99, 48, 48);
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.settingsDeleteTitle:hover{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingsPP > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.settingsPPIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition:0.3s
+    
+}
+.settingsPPIcon:hover {opacity:1}
+
+.settingsForm > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingsForm > input{
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.settingsSubmit{
+    width: 150px;
+    align-self: center;
+    /* border: none; */
+    /* border-radius: 10px; */
+    color: white;
+    /* background-color: teal; */
+    padding: 10px;
+    margin-top: 20px;
+    /* cursor: pointer; */
+}
+
+.form-floating{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
